@@ -1,0 +1,15 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 20px; margin: 0; }
+.cart-container { background: #fff; max-width: 900px; margin: 0 auto; padding: 20px; border-radius: 8px; border: 1px solid #ddd; }
+.cart-title { text-align: center; margin-bottom: 20px; font-size: 18px; }
+.cart-table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+.cart-table th, .cart-table td { border: 1px solid #eee; padding: 12px; text-align: center; vertical-align: middle; }
+.cart-table th { background-color: #f9f9f9; font-size: 14px; }
+.product-img { width: 50px; height: 50px; object-fit: contain; }
+.qty-input { width: 50px; text-align: center; padding: 5px; border: 1px solid #ddd; border-radius: 4px; }
+.total-label { text-align: center; font-weight: bold; }
+.total-price { color: #d9534f; font-weight: bold; text-align: right; padding-right: 40px !important; }
+.btn-delete { background-color: #ffe6e6; color: #d9534f; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer; }
+.cart-actions { display: flex; justify-content: space-between; }
+.btn-clear-all { background-color: #6c757d; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; font-weight: bold; }
+.btn-checkout { background-color: #007bff; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; font-weight: bold; }
